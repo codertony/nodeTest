@@ -1,0 +1,19 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./translate/index.js",
+    "mergeExcel": "node ./mergeExcelNumber/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-baidu-translate": "^0.1.0"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.15.0"
+  }
+}
